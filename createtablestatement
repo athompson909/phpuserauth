@@ -1,0 +1,13 @@
+CREATE TABLE login (
+  ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  FirstName varchar(255) NOT NULL,
+  LastName varchar(255) NOT NULL,
+  Birthday varchar(255) NOT NULL,
+  UserName varchar(255) NOT NULL,
+  UserPassword varchar(255) NOT NULL
+)
+
+CREATE TABLE imageNames (
+  ID int NOT NULL,
+  imageName varchar(255) NOT NULL
+)
